@@ -12,7 +12,7 @@ os.makedirs(output_folder, exist_ok=True)
 
 # Parâmetros de área (em pixels)
 area_min = 100
-area_max = 3000  # ajuste conforme necessário
+area_max = 3000  
 
 # Itera sobre os arquivos da pasta
 for filename in os.listdir(input_folder):
