@@ -1,0 +1,1 @@
+['DexiNed, Xavier Normal Init, LR= 0.0001 WD= 1e-08 image size = 352 adjust LR=[10, 15] Loss Function= BDCNloss2. Trained on> PELOTAS Tested on> PELOTAS Batch size= 8 Mon Jun 16 10:56:40 2025']

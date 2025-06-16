@@ -17,9 +17,9 @@ def crop_image(RGB_image, gray_image):
 
 def main():
     #Caminhos dos arquivos/pastas
-    video_path = "videos\Disco10b.avi"
-    RGB_folder = "pelet_dateset\RGB_images"
-    gray_folder = "images\gray_images"
+    video_path = "videos/Disco10b.avi"
+    RGB_folder = "pelotas_dataset/images/RGB_images"
+    gray_folder = "pelotas_dataset/images/gray_images"
     # Cria a pasta de saída se não existir
     os.makedirs(RGB_folder, exist_ok=True)
     os.makedirs(gray_folder, exist_ok=True)

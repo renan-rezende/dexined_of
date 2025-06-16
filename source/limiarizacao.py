@@ -2,8 +2,8 @@ import cv2 as cv
 import numpy as np
 import os
 
-input_folder = 'images/detected'
-output_folder = 'pelet_dataset/masks'
+input_folder = 'pelotas_dataset/images/detected'
+output_folder = 'pelotas_dataset/images/masks'
 os.makedirs(output_folder, exist_ok=True)
 
 for filename in os.listdir(input_folder):

@@ -4,14 +4,14 @@ import cv2 as cv
 from matplotlib import pyplot as plt
 
 # Diretórios de entrada e saída
-input_folder = 'images/gray_images'
-output_folder = 'images/detected'
+input_folder = 'pelotas_dataset/images/gray_images'
+output_folder = 'pelotas_dataset/images/detected'
 
 # Cria pasta de saída, se não existir
 os.makedirs(output_folder, exist_ok=True)
 
 # Parâmetros de área (em pixels)
-area_min = 100
+area_min = 30
 area_max = 3000  # ajuste conforme necessário
 
 # Itera sobre os arquivos da pasta
